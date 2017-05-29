@@ -9,6 +9,6 @@ import org.springframework.web.servlet.ModelAndView;
 public class WebController {
     @Autowired
     PersonRepository personRepository;
-    @RequestMapping("/list")
+    @RequestMapping("/")
     public ModelAndView peoplelist() {return new ModelAndView("list", "people", personRepository.findAll());}
 }
