@@ -3,7 +3,7 @@
 module.exports = {
 
   development: {
-    client: 'postgresql',
+    client: 'postgres://vtgfovznhfmief:70fb5588de4ba79693bdb28dfb6e51c4badd3c0f4b63d2195e2c87a22c1fa0e7@ec2-174-129-224-33.compute-1.amazonaws.com:5432/d2og4radng2nqm',
     connection: {
       database: 'danilov-web',
       charset: 'utf8'
@@ -19,9 +19,9 @@ module.exports = {
   },
 
   production: {
-    client: 'postgresql',
+    client: 'postgres://vtgfovznhfmief:70fb5588de4ba79693bdb28dfb6e51c4badd3c0f4b63d2195e2c87a22c1fa0e7@ec2-174-129-224-33.compute-1.amazonaws.com:5432/d2og4radng2nqm',
       connection: {
-          database: 'my_db',
+          database: 'danilov-web',
           user:     'user',
           password: 'password'
       },
